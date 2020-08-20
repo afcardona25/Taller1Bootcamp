@@ -1,0 +1,95 @@
+/* generales*/
+*{
+    background-color: black;
+    color: gold;
+}
+#menu{
+   
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   margin-left: 10%;
+   margin-right: 10%;
+}
+
+.white{
+    color: white;
+}
+#cuerpo{
+    margin-top: 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+#textoPrin{
+    margin-left: 10%;
+    margin-right: 10%;
+    
+}
+li {
+    list-style-type: none;
+    font-size: 20pt;
+    
+}
+li a {
+    text-decoration: none;
+}
+footer{
+    margin-right: 10%;
+    margin-left: 10%;
+    color: white;
+    margin-top: 10%;
+}
+/* Formulario */
+form{
+    justify-content: center;
+    margin-right: 20%;
+    margin-left: 20%;
+}
+#submit{
+    background-color: white;
+    color: tomato;
+}
+#formImage{
+    margin-top: 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+p{
+    animation: slide-left;
+    color: white;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+#star-six {
+    margin-left: 50%;
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 100px solid blue;
+    position: relative;
+  }
+  #star-six:after {
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-top: 100px solid blue;
+    position: absolute;
+    content: "";
+    top: 30px;
+    left: -50px;
+  }
+  #tweetEstrella{
+      display: flex;
+      flex-direction: row;
+      margin-left: 10%;
+      margin-right: 10%;
+      justify-content: flex-start;
+  }
